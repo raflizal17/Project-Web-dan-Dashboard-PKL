@@ -1,0 +1,144 @@
+.vectorzs {
+  background-image: url('/img/landing_page/home/umum_home/ornamen 4 4.png'),url('/img/landing_page/home/umum_home/ornamen 2 5.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: top 210px right 0px, top 10px left 0px;
+  background-size: 13rem 20%, 5rem 95%;
+}
+
+@media (max-width: 580px) {
+  .vectorzs {
+    background-image: none;
+  
+  }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .vectorzs {
+    background-image: url('/img/landing_page/home/umum_home/ornamen 4 4.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom 40px right 0px;
+    background-size: 13rem 18%;
+    padding-top: 5%;
+  
+  }}
+
+.turun {
+  margin-bottom: 7%;
+}
+
+.img {
+  height: 100px;
+  width: 160px;
+}
+
+.img.kanan {
+  -webkit-transform: scaleX(-1);
+  float: right;
+}
+
+.col-md-3,
+.col-md-9 {
+  padding-left: px;
+}
+
+.col-md-3.kanan {
+  padding-right: 0px;
+}
+
+.imgvar {
+  /* display: block; */
+  height: 200px;
+  width: 100px;
+}
+
+.col-md-2.kiri {
+  padding-left: 4%;
+}
+
+.col-md-2.kanan {
+  padding-left: 7%;
+  float: right;
+}
+
+.subvar {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #0a5446;
+}
+
+.ukuran {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #0a5446;
+}
+
+.ukuran_lagi {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #0a5446;
+}
+
+.var {
+  height: 85%;
+  width: 100%;
+  padding: 0 35px;
+  margin-bottom: 10%;
+  color: #0a5446;
+}
+
+.var.kiri {
+  border-right: 5px solid #0c6e58;
+}
+
+.var.kanan {
+  float: right;
+  border-left: 5px solid #0c6e58;
+}
+
+.imgrlingkup {
+  height: 200px;
+  width: 40px;
+  -webkit-box-reflect: right;
+}
+
+.imgrlingkup.kanan {
+  /* float: right; */
+  padding-right: 0px;
+}
+
+.khijau {
+  padding: 20px 10px;
+  width: 100%;
+  height: 95%;
+  background: #0c6e58;
+  border-radius: 25px;
+}
+
+/* --------------------------- */
+
+.row {
+  display: flex;
+}
+.sep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sepText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.sepText::before,
+.sepText::after {
+  content: "";
+  flex: 1;
+  width: 1px;
+  background: currentColor;
+  /* matches font color */
+  margin: 0.25em;
+}

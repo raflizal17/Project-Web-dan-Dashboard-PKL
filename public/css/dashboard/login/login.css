@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: Poppins;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url('/img/dashboard/login/Group4.svg'), url('/img/dashboard/login/ornamen_atas_kanan.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top 24px right;
+    background-size: 100% auto, 5vw auto;
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px){
+    #ornamen-1-1 img, #ornamen-2-1 img{
+        display: none;
+    }
+    #navbar{
+        box-shadow: 0 3px 10px rgb(200,200,200);
+        border-radius: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        background: none;
+    }
+    #ornamen-2 img{
+        display: block;
+    }
+}
+/* @media (min-width: 576px) and (max-width: 768px) {
+    body {
+        background-size: auto 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-size: auto 25%;
+    }
+} */
+
+.navbar {
+    font-size: 0.9rem;
+    background-color: #0A5446;
+    
+}
+
+.navbar .navbar-nav {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.navbar .navbar-nav:hover {
+    color: #B7D8CB;
+}
+
+.navbar .dropdown-menu {
+    background-color: #0A5446;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    transition: 0.2s;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav.d-lg-none .nav-item {
+    margin: 0 !important;
+    text-align: center;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+    border-width: 0.2rem;
+    border-radius: 0.5rem;
+    padding: 1px 5px;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#mobile .nav-link:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#mobile .nav-link:hover:after {
+    width: 100%;
+    background: white;
+}
+
+/* 
+    PANEL LOGIN
+*/
+
+.text-green {
+    color: #0A5446;
+}
+
+#loginpanel {
+    min-height: 100vh;
+    background: url('/img/dashboard/login/ornamen_atas_kanan.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    z-index: 1000;
+}
+
+#loginPanel a {
+    color: #0A5446;
+    background-color: #EAF8E4;
+    transition: 0.2s;
+}
+
+#loginPanel a:hover {
+    background-color: #D2DFCD;
+}

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+
+.akun-user {
+    width: 35px;
+    height: 35px;
+    background-color: #0A5446;
+    border-radius: 100%; 
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler > .akun-user:hover {
+    cursor: pointer;
+}
+
+.navbar-collapse > .navbar-nav > .nav-item > .dropdown-menu > .dropdown-item, .navbar-collapse > .navbar-nav > .nav-item > .nav-link {
+    font-weight: 600;
+    color: #0A5446;   
+}
+
+.navbar-collapse > .navbar-nav > .nav-item > .dropdown-menu > .dropdown-item:hover, .navbar-collapse > .navbar-nav > .nav-item:hover > .nav-link {
+    color: white;
+    background-color: #0A5446;   
+}
+
+/* End Navbar */
+
+/* Sidebar */
+
+.main-sidebar {
+    background-color: #0A5446;
+    border-radius: 0 30px 30px 0;
+}
+
+a.brand-link {
+    border: none;
+}
+
+.brand-link .brand {
+    border-bottom: 5px solid white;
+    padding: 15px 0;
+}
+
+.brand-link .brand-image {
+    margin-left: 10px;
+}
+
+.brand-link .brand-text {
+    color: white;
+    font-weight: 700;
+}
+
+.nav-treeview .nav-item {
+    padding-left: 20px;
+}
+
+.nav-item{
+    padding-left: 8px;
+}
+
+.sidebar .nav-sidebar > .nav-item > .nav-link {
+    color :white;
+    border-radius: 15px 0 0 15px;
+}
+
+.sidebar .nav-sidebar > .nav-item:hover > .nav-link {
+    background-color: rgb(244, 246, 249);
+    color: #0A5446;
+}
+
+.sidebar .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: rgb(244, 246, 249);
+    color: #0A5446;
+}
+
+.nav-treeview .nav-item .nav-link {
+    /* margin-left: 15px; */
+    color: white;
+}
+
+/* body.sidebar-collapse .sidebar .nav-sidebar .nav-treeview .nav-item .nav-link {
+    margin-left: 0;
+    padding-left: 8px;
+    color: white;
+}
+
+body.sidebar-collapse .main-sidebar:hover .sidebar .nav-sidebar .nav-treeview .nav-item .nav-link {
+    margin-left: 15px;
+    padding-left: 8px;
+} */
+
+.nav-treeview .nav-item:hover .nav-link {
+    background-color: white;
+    color: #0A5446;
+    border-radius: 15px 0 0 15px;
+}
+
+.nav-treeview .nav-item .nav-link.active {
+    background-color: white;
+    color: #0A5446;
+    border-radius: 15px 0 0 15px;
+}
+
+/* End Sidebar */
+
+/* Content */
+
+.judul-dashboard {
+    font-weight: 700;
+    color: #0A5446;
+}
+
+.baris-judul-riset {
+    border-bottom: 3px solid #0A5446;
+}
+
+.judul-riset {
+    font-weight: 600;
+    color: #0A5446;
+    font-size: 1.5em;
+}
+
+#profile-menu{
+    color: white;
+}
+
+#title-bidum{
+    font-size: 1.8em;
+}
+
+#about-bidum{
+    font-size: 16px;
+}
+
+/* End Content */
+
+@media (max-width: 768px) { 
+    .main-header > .pushmenu {
+        margin-left: 2rem;
+    }
+
+    .nav-item-profile{
+        text-align: center;
+    }
+
+    .nav-item-profile:hover{
+        background-color: #dfdede;
+    }
+
+    #profile-menu:hover{
+        background-color: #dfdede;
+        color: #0A5446;
+    }
+
+    #title-bidum{
+        font-size: 1.5em;
+    }
+
+    #about-bidum{
+        font-size: 15px;
+    }
+
+    #footer-content{
+        text-align: center;
+    }
+}

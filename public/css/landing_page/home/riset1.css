@@ -1,0 +1,157 @@
+.vectorr {
+  background-image: url(/img/landing_page/home/riset1_home/Group532.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  min-height: 105vh;
+  padding-bottom: 10%;
+  margin-bottom: 3%;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:focus {
+  background-color: #3a9b7a !important;
+}
+
+
+
+.img {
+  height: 100px;
+  width: 160px;
+}
+
+.img.kanan {
+  -webkit-transform: scaleX(-1);
+  float: right;
+}
+
+.col-md-3,
+.col-md-9 {
+  padding-left: px;
+}
+
+.col-md-3.kanan {
+  padding-right: 0px;
+}
+
+.imgvar {
+  /* display: block; */
+  height: 200px;
+  width: 100px;
+}
+
+.col-md-1.kiri {
+  padding-left: 4%;
+}
+
+.col-md-2.kanan {
+  padding-left: 7%;
+  float: right;
+}
+
+.subvar {
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: #ffffff;
+}
+
+.ukuran {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.ukuran_lagi {
+  font-weight: bold;
+  font-size: 9rem;
+  color: #ffffff;
+}
+
+.varz {
+  height: 85%;
+  width: 100%;
+  padding: 0 35px;
+  margin-bottom: 10%;
+  color: #ffffff;
+}
+
+.varz.kiri {
+  border-right: 10px solid #ffffff;
+}
+
+.varz.kanan {
+  float: right;
+  border-left: 5px solid #ffffff;
+}
+
+.imgrlingkup {
+  height: 200px;
+  width: 40px;
+  -webkit-box-reflect: right;
+}
+
+.imgrlingkup.kanan {
+  /* float: right; */
+  padding-right: 0px;
+}
+
+.khijau {
+  padding: 20px 10px;
+  width: 100%;
+  height: 95%;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+/* --------------------------- */
+
+.row {
+  display: flex;
+}
+.sep {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sepText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.sepText::before,
+.sepText::after {
+  content: "";
+  flex: 1;
+  width: 1px;
+  background: currentColor;
+  /* matches font color */
+  margin: 0.25em;
+}
+
+
+
+@media (max-width: 580px) {
+  .vectorr {
+    background-image: url(/img/landing_page/home/riset1_home/Rectangle33.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    min-height: 105vh;
+    padding-bottom: 20%;
+    margin-bottom: 10%;;
+  }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .vectorr {
+    background-image: url(/img/landing_page/home/riset1_home/Group583.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    min-height: 105vh;
+    padding-bottom: 10%;
+    margin-bottom: 3%;;
+  }
+}
+

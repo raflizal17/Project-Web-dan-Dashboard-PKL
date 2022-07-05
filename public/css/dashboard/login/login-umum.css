@@ -1,0 +1,103 @@
+body{
+    height: 100vh;   
+    overflow: hidden;
+    background: url('../../../img/dashboard/login/Group4.svg');
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+#ornamen-1-1 img{
+    width: 5%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+}
+#ornamen-2-1 img{
+    width: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#ornamen-2 img{
+    display: none;
+    width: 500px;
+    position: fixed;
+    bottom: 0;
+}
+.login-box{
+    width: 500px;
+}
+.login-box .login-header h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0A5446;
+}
+.login-body{
+    width: 350px;
+    margin: auto;
+}
+.login-body form label{
+    color: #444B59;
+    font-weight: 600;
+}
+.login-body form input{
+    border-radius: 80px;
+    border: 2px solid #0A5446;
+}
+.login-body form input::placeholder{
+    color: #2E9E89;
+}
+.login-body .input-group .show-password{
+    border-radius: 0 80px 80px 0;
+    border: 2px solid #0A5446;
+    border-left: none;
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.checkbox-round:hover {
+    background-color: #2E9E89;
+}
+.checkbox-round:checked {
+    background-color: #0A5446;
+}
+#btn-submit{
+    width: 100%;
+    padding: 5px;
+    background-color: #0A5446;
+    color: white;
+}
+#btn-register{
+    border-radius: 80px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(164, 210, 159);
+    color: #0A5446;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    #ornamen-1-1 img, #ornamen-2-1 img{
+        display: none;
+    }
+    #navbar{
+        box-shadow: 0 3px 10px rgb(200,200,200);
+        border-radius: 30px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        background: none;
+    }
+    #ornamen-2 img{
+        display: block;
+    }
+}

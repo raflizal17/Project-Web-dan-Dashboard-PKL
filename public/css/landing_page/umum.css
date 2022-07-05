@@ -1,0 +1,275 @@
+/* global-display */
+* {
+    font-family: 'Poppins';
+}
+.content {
+    background-color: #F7F5F9;
+}
+.subbab {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1%;
+    color: #0A5446;
+}
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+.box {
+    background-color: #f2f0f4;
+    border-radius: 1.5625rem;
+    padding: 1.5rem 1.5rem 4rem;
+    background-image: url('../../img/landing_page/umum/Vector.png');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position-y: 7rem;
+}
+.opacity {
+    opacity: 0.9;
+}
+.orn41 {
+    width: 8rem;
+    height: 17rem;
+    padding-right: 0.9375rem;
+}
+#ruang {
+    background-image: url('../../img/landing_page/umum/ruanglingkup.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#ruang .box {
+    margin: inherit;
+    background-size: 100% 100%;
+}
+#variabel .var2 {
+    flex-direction: row-reverse;
+}
+.group {
+    width: 4rem;
+    height: 90%;
+}
+#pembatas {
+    background-image: url('../../img/landing_page/umum/Frame.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#pembatas .d-flex {
+    margin: 2rem 15rem;
+}
+#pembatas .opacity {
+    opacity: 0.7;
+}
+#pembatas .box {
+    padding: 1.2rem 5rem;
+}
+.rec11 {
+    width: 1.25rem;
+    height: 80%;
+}
+#example {
+    height: 100%;
+    width: 100%;
+    /* background-image: url('../../img/landing_page/umum/wavey.png'), url('../../img/landing_page/umum/wave.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+}
+#penelitian {
+    background-image: url('../../img/landing_page/umum/bg4.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#penelitian .box {
+    padding: 1rem;
+    background-image: url('../../img/landing_page/umum/Vector.png');
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position-y: 7rem;
+}
+.carousel-indicators button {
+    border-radius: 100%;
+    border-style: solid;
+    width: 15px;
+    height: 15px;
+    background-color: grey;
+    margin: 0% .5%;
+}
+.carousel-indicators .active {
+	background-color: #0C6E58;
+	border-style: none;
+}
+.carousel-indicators i {
+	color: #0C6E58;
+	font-size: 20px;
+}
+
+/* md-display */
+@media (max-width: 48rem) {
+    .text {
+        font-size: 1rem;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 0.8rem 0rem;
+    }
+    .box {
+        background-color: #f2f0f4;
+        border-radius: 1.5625rem;
+        padding: 1.5rem 1.5rem 3.5rem;
+        margin: 0rem 1.5rem;
+        background-image: url('../../img/landing_page/umum/Vector.png');
+        background-size: 100% 80%;
+        background-repeat: no-repeat;
+        background-position-y: 7rem;
+    }
+    .orn41 {
+        width: 5rem;
+        height: 12rem;
+        padding-top: 1rem;
+        padding-right: .4rem;
+    }
+    #demo .box {
+        margin: .5rem 2rem;
+        padding: 1rem 2rem 3rem;
+        background-size: 100% 100%;
+    }
+    #variabel .display-6 {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+    #pembatas .d-flex {
+        margin: 2rem 5rem;
+    }
+    #pembatas .box {
+        padding: 2rem;
+    }
+    #penelitian .carousel-item .d-flex {
+        flex-direction: column;
+    }
+    #penelitian img {
+        width: 31.25rem;
+    }
+}
+
+/* mobile-display */
+@media (max-width: 36rem) {
+    .text {
+        font-size: 0.6rem;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 1rem;
+        padding: .5rem 0rem;
+    }
+    .box {
+        background-color: #f2f0f4;
+        border-radius: 1.5625rem;
+        padding: 1.2rem 1rem 2rem;
+        margin: 0rem .4rem;
+        background-image: url('../../img/landing_page/umum/Vector.png');
+        background-size: 100% 70%;
+        background-repeat: no-repeat;
+        background-position-y: 7rem;
+    }
+    .orn41 {
+        width: 4rem;
+        height: 10rem;
+        padding-top: 1rem;
+    }
+    #demo .box {
+        margin: .2rem 1rem;
+        padding: .5rem 2rem 2rem;
+        background-size: 100% 100%;
+    }
+    #variabel .display-6 {
+        font-size: .9rem;
+    }
+    .d-flex .box {
+        margin: 0rem .5rem;
+    }
+    .d-flex .group {
+        width: 3rem;
+    }
+    #pembatas .d-flex {
+        margin: 2rem 2rem;
+    }
+    #pembatas .box {
+        padding: 1rem;
+    }
+    #penelitian img {
+        width: 13rem;
+    }
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #0A5446;
+    background-image: url('/img/landing_page/riset1/Ornamen Footer 2.png'), url('/img/landing_page/riset1/Ornamen Footer.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top 10px right 10px, top 10px left 10px;
+    background-size: 3rem 95%;
+}
+
+footer #info {
+    width: 50%;
+}
+
+footer img{
+    width: 9rem;
+}
+
+footer .btn {
+    width: 8rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+footer .btn:hover {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    footer {
+        background-size: 2.5rem 95%;
+    }
+
+    footer #info {
+        width: 75%;
+    }
+    footer img {
+        width: 7rem;
+    }
+    footer .btn {
+        font-size: 0.8rem;
+        width: 7.4rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        background-size: 2rem 95%;
+    }
+
+    footer #info {
+        width: 100%;
+    }
+    footer img {
+        width: 7rem;
+    }
+    footer .btn {
+        font-size: 0.7rem;
+        width: 5rem;
+        height: 1.7rem;
+    }
+}

@@ -1,0 +1,734 @@
+/* General */
+body {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: justify;
+    background-color: #f7f5f9;
+}
+
+.subbab {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    padding-bottom: 1%;
+    color: #0A5446;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0C6E58;
+}
+
+rect {
+    fill: #A4D29F;
+}
+
+.parag {
+    opacity: 60%;
+}
+
+.content {
+    background: #F2F0F4;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px grey;
+}
+
+hr {
+    margin: 0 !important;
+}
+
+@media (max-width: 580px) {
+    body {
+        font-size: 0.7rem;
+    }
+
+    .headline {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width:992px) {
+    body {
+        font-size: 0.85rem;
+    }
+
+    .headline {
+        font-size: 1.7rem;
+    }
+}
+
+/* SecondSec */
+#secondSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/ornamen1.png);
+    background-size: 100px 198px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 40px;
+    background-position-x: 15px;
+}
+
+#secondSec .konten {
+    margin-right: 110px;
+    margin-left: 140px;
+}
+
+#secondSec .parag {
+    text-indent: 50px;
+}
+
+@media (max-width: 580px) {
+    #secondSec .container-fluid {
+        background-size: 70px 138px;
+        background-position-y: 50px;
+        background-position-x: 20px;
+    }
+
+    #secondSec .konten {
+        margin-left: 95px;
+        margin-right: 3px;
+    }
+
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #secondSec .container-fluid {
+        background-size: 80px 158px;
+        background-position-y: 40px;
+        background-position-x: 20px;
+    }
+
+    #secondSec .konten {
+        margin-left: 110px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #secondSec .container-fluid {
+        background-size: 90px 178px;
+        background-position-y: 40px;
+        background-position-x: 20px;
+    }
+
+    #secondSec .konten {
+        margin-left: 110px;
+        margin-right: 10px;
+    }
+}
+
+/* ThirdSec */
+#thirdSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/ornamen1.png);
+    background-size: 100px 198px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 99% 50%;
+}
+
+#thirdSec .konten {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+@media (max-width: 580px) {
+    #thirdSec .container-fluid {
+        background-size: 70px 138px;
+        background-position: 99% 35%;
+    }
+
+    #thirdSec .konten {
+        margin-left: 20px;
+        margin-right: 75px;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #thirdSec .container-fluid {
+        background-size: 85px 168px;
+        background-position: 98% 38%;
+    }
+
+    #thirdSec .konten {
+        margin-left: 30px;
+        margin-right: 95px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #thirdSec .container-fluid {
+        background-size: 90px 178px;
+        background-position: 99% 38%;
+    }
+
+    #thirdSec .konten {
+        margin-left: 30px;
+        margin-right: 100px;
+    }
+}
+
+/* FourthSec */
+#fourthSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/bg3.png);
+    background-size: 95vw;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 70px;
+    background-position-x: center;
+}
+
+#fourthSec .konten {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+#fourthSec .chart {
+    width: 490px;
+    height: 290px;
+}
+
+#fourthSec .nama-chart {
+    color: #0C6E58;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+#fourthSec .card {
+    opacity: 0.6;
+    background: #F2F0F4;
+    border-radius: 20px;
+    min-height: 42vh;
+}
+
+#fourthSec i {
+    color: #0C6E58;
+    font-size: 3.5vmin;
+}
+
+#fourthSec .box {
+    transition: all 1s;
+}
+
+#fourthSec .box:hover {
+    transform: translateY(-12px);
+}
+
+@media (max-width: 580px) {
+    #fourthSec .konten {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #fourthSec .chart {
+        width: 303px;
+        height: 180px;
+    }
+
+    #fourthSec .headline {
+        margin-bottom: 3px;
+    }
+
+    #fourthSec .card {
+        min-height: 20vh;
+        font-size: 0.75rem;
+    }
+
+    #fourthSec .fourth2 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    #fourthSec .crsl {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #fourthSec .konten {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #fourthSec .chart {
+        width: 320px;
+        height: 190px;
+    }
+
+    #fourthSec .card {
+        margin-bottom: 8px;
+        min-height: 25vh;
+    }
+
+    #fourthSec .fourth2 {
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+    #fourthSec .crsl {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #fourthSec .chart {
+        width: 370px;
+        height: 220px;
+    }
+
+    #fourthSec .card {
+        min-height: 58vh;
+        margin-bottom: 5vh;
+    }
+}
+
+/* FifthSec */
+#fifthSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/bg4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-x: center;
+}
+
+#fifthSec .konten {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#fifthSec .card {
+    opacity: 0.6;
+    background: #F2F0F4;
+    border-radius: 20px;
+    min-height: 40vh;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#fifthSec .fifth {
+    padding: 0 20px;
+}
+
+#fifthSec i {
+    color: #0C6E58;
+    font-size: 3.5vmin;
+}
+
+#fifthSec .box {
+    transition: all 1s;
+}
+
+#fifthSec .box:hover {
+    transform: translateY(-15px);
+}
+
+@media (max-width: 580px) {
+    #fifthSec .card {
+        min-height: 30vh;
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 0.8rem;
+    }
+
+    #fifthSec .card-title {
+        font-size: 0.9rem;
+    }
+
+    #fifthSec .row {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #fifthSec .card {
+        min-height: 30vh;
+        padding-right: 50px;
+        padding-left: 50px;
+        font-size: 0.8rem;
+    }
+
+    #fifthSec .card-title {
+        font-size: 0.9rem;
+    }
+
+    #fifthSec .row {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #fifthSec .card {
+        min-height: 65vh;
+        font-size: 0.8rem;
+    }
+
+    #fifthSec .konten {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* SixSec */
+#sixSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/bg5.png);
+    background-size: 97vw;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 40px;
+    background-position-x: center;
+}
+
+#sixSec .konten {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+#sixSec .dimensi {
+    color: #0C6E58;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#sixSec .isi-dimensi {
+    border-radius: 25px;
+    padding: 10px 40px;
+}
+
+#sixSec .sub-judul {
+    color: #0C6E58;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#sixSec .isi {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    text-indent: 50px;
+    opacity: 0.6;
+}
+
+@media (max-width: 580px) {
+    #sixSec .container-fluid {
+        background-image: none;
+    }
+
+    #sixSec .konten {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #sixSec .headline {
+        margin-bottom: 2px;
+    }
+
+    #sixSec .sub-judul {
+        font-size: 1.1rem;
+    }
+
+    #sixSec .isi {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #sixSec .container-fluid {
+        background-image: none;
+    }
+
+    #sixSec .konten {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #sixSec .headline {
+        margin-bottom: 2px;
+    }
+
+    #sixSec .sub-judul {
+        font-size: 1.2rem;
+    }
+
+    #sixSec .isi {
+        font-size: 0.7rem;
+    }
+}
+
+/* SevenSec */
+#sevenSec .konten {
+    margin-left: 130px;
+    margin-right: 130px;
+    min-height: 130px;
+}
+
+#sevenSec .responden {
+    font-size: 0.9rem;
+    color: #0C6E58;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+@media (max-width: 580px) {
+    #sevenSec .konten {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #sevenSec .responden {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #sevenSec .konten {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    #sevenSec .responden {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+}
+
+/* EightSec */
+#eightSec .judul {
+    font-size: 1.5rem;
+    color: #0C6E58;
+}
+
+#eightSec .konten {
+    background-color: #0C6E58;
+    border-radius: 20px;
+}
+
+#eightSec .content {
+    margin: 25px;
+}
+
+#eightSec .isi {
+    color: #0C6E58;
+    margin: 20vh 6vh 20vh 6vh;
+    font-size: 1.2rem;
+}
+
+#eightSec button {
+    background: #7AB8A9;
+    border-color: #004B3C;
+    border-radius: 15px 15px 0px 0px;
+    color: #ffffff;
+}
+
+#eightSec .nav-fill .nav-link.active {
+    background: #0c6e58;
+    border-color: #0c6e58;
+    color: #ffffff;
+}
+
+#eightSec .sub-dimensi {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#eightSec .tabDimensi {
+    background: #0c6e58;
+    color: #ffffff;
+}
+
+#eightSec .card {
+    color: black;
+    border-radius: 20px;
+}
+
+#eightSec .container-fluid {
+    background-image: url(../../img/landing_page/riset3/ornamen2.png);
+    background-size: 213px 130px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-y: 620px;
+    background-position-x: 15px;
+}
+
+#eightSec .orn {
+    width: 213px;
+    height: 130px;
+}
+
+@media (max-width: 580px) {
+    #eightSec .container-fluid {
+        background-image: none;
+    }
+
+    #eightSec .judul {
+        font-size: 1.2rem;
+    }
+
+    #eightSec .konten {
+        background-color: #f7f5f9;
+    }
+
+    #eightSec .content {
+        background-color: white;
+    }
+
+    #eightSec .isi {
+        font-size: 0.9rem;
+    }
+
+    #eightSec .sub-dimensi {
+        font-size: 1.2rem;
+    }
+
+    #eightSec .row {
+        margin-right: 50px;
+        margin-left: 50px;
+        font-size: 0.7rem;
+    }
+
+    #eightSec .plot {
+        width: 78vw;
+        height: 60vh;
+    }
+
+
+    #eightSec .orn {
+        width: 148px;
+        height: 90px;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    #eightSec .container-fluid {
+        background-image: none;
+    }
+
+    #eightSec .judul {
+        font-size: 1.2rem;
+    }
+
+    #eightSec .konten {
+        background-color: #f7f5f9;
+    }
+
+    #eightSec .content {
+        background-color: white;
+    }
+
+    #eightSec .isi {
+        font-size: 0.9rem;
+        /* margin: 20vh 10vh 20vh 10vh; */
+    }
+
+    #eightSec .plot {
+        width: 65vw;
+        height: 60vh;
+    }
+
+    #eightSec .sub-dimensi {
+        font-size: 1.2rem;
+    }
+
+    #eightSec .row {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 0.7rem;
+    }
+
+    #eightSec .orn {
+        width: 164px;
+        height: 100px;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0A5446;
+    background-image: url('/img/landing_page/riset1/Ornamen Footer 2.png'), url('/img/landing_page/riset1/Ornamen Footer.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: top 10px right 10px, top 10px left 10px;
+    background-size: 3rem 95%;
+}
+
+footer #info {
+    width: 50%;
+}
+
+footer img {
+    width: 9rem;
+}
+
+footer .btn {
+    width: 8rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+footer .btn:hover {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    footer {
+        background-size: 2.5rem 95%;
+    }
+
+    footer #info {
+        width: 75%;
+    }
+
+    footer img {
+        width: 7rem;
+    }
+
+    footer .btn {
+        font-size: 0.8rem;
+        width: 7.4rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        background-size: 2rem 95%;
+    }
+
+    footer #info {
+        width: 100%;
+    }
+
+    footer img {
+        width: 7rem;
+    }
+
+    footer .btn {
+        font-size: 0.7rem;
+        width: 5rem;
+        height: 1.7rem;
+    }
+}

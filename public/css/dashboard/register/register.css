@@ -1,0 +1,82 @@
+body{
+    background-color: #EAF8E4;
+    padding: 50px 0;
+    background-image: url('../../../img/dashboard/login/bg_register.png');
+    background-size: contain;
+}
+
+.register-box{
+    box-shadow: 0 0 10px #ccc;
+    width: 700px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px 50px;
+}
+
+.register-head{
+    width: fit-content;
+}
+
+.register-head img {
+    width: 100px;
+}
+
+.register-head h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0A5446;
+}
+
+.register-head p{
+    color: #444B59;
+}
+
+.register-body form label{
+    color: #444B59;
+    font-weight: 600;
+}
+
+.register-body form .form-control, #btn-submit{
+    border-radius: 80px;
+    border: 2px solid #0A5446;
+}
+
+.register-body form input::placeholder{
+    color: #2E9E89;
+}
+
+.register-body form input:focus{
+    outline: none;
+}
+
+.register-body form .input-group .show-password{
+    border-radius: 0 80px 80px 0;
+    border: 2px solid #0A5446;
+    border-left: none;
+}
+
+#btn-submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #0A5446;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .register-box{
+        width: 500px;  
+    }
+}
+
+@media screen and (max-width: 576px){
+    body{
+        background-color: white;
+        background-image: none;
+    }
+
+    .register-box{
+        width: 100%;  
+        border-radius: none;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,148 @@
+
+
+
+
+
+
+
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 1000;
+  color: #0c6e58;
+  font-size: 50px;
+}
+
+.navabar .h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1000px;
+}
+
+.navbar {
+  background-color:transparent !important;}
+
+.navbar .nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 1px 6px;
+  padding: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+
+.navbar .nav-item .nav-link:hover {
+  color: #3dad95;
+  
+}
+
+
+
+.navbar .main-btn:hover {
+  background: #a4d29f;
+}
+
+/* About Us Section
+--------------------------------*/
+
+.about {
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* About Us Section
+--------------------------------*/
+.angkatan {
+    background-image: url('/img/landing_page/home/general/Vector (1).png'), url('/img/landing_page/home/general/ornamen 1 1.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom 0px left 0px, top 80px left 30px;
+    background-size: 100% 30%, 5rem 50%;
+  
+}
+
+@media (max-width: 580px) {
+  .angkatan {
+    background-image: none;
+  
+  }
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .angkatan {
+    background-image: url('/img/landing_page/home/general/Vector (1).png'), url('/img/landing_page/home/general/ornamen 1 1.png');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom 0px left 0px, top 90px left 0px;
+    background-size: 100% 30%, 5rem 20%;
+    }
+  }
+
+
+
+
+
+.angkatan .col-md-2.kanan {
+  padding-left: 4%;
+}
+
+.angkatan .one {
+  background: #f2f0f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 7px;
+}
+
+footer {
+  background-color: #0A5446;
+  background-image: url('/img/landing_page/home/general/ornamen 3 1.png'),url('/img/landing_page/home/general/ornamen 3 2.png'), url('/img/landing_page/home/general/ornamen 4 1.png'), url('/img/landing_page/home/general/ornamen 4 1.png');
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: bottom 0px right 0px, bottom 0px left 0px, bottom 0px right 80px, bottom 0px left 80px;
+  background-size: 5rem 90%, 5rem 90%, 7rem 60%, 7rem 60%;
+}
+
+footer #info {
+  width: 50%;
+}
+
+footer img{
+  width: 9rem;
+}
+
+footer .btn {
+  width: 8rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer .btn:hover {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+
